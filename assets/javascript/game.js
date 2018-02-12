@@ -37,9 +37,9 @@ window.onkeyup = function (userEvent) {
             console.log(currentLetter);
 
             console.log(wins);
-
+            document.getElementById('print-wins').innerHTML = wins;
             console.log(losses);
-
+            document.getElementById('print-losses').innerHTML = losses;
             console.log(guessesLeft);
 
             console.log(guessedLetters);
